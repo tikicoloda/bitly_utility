@@ -1,0 +1,22 @@
+
+<html>
+  <head>
+    <title>Sample Bitly Usage</title>
+  </head>
+  <body>
+    <script type="text/javascript" src="scripts/BitlyCore.js"></script>
+    <script type="text/javascript">
+      var $j = jQuery.noConflict();
+      var strHref = window.location.href;
+      var strParams = strHref.substr(strHref.indexOf("?") + 1);
+      var arrVals = strParams.split("&");
+      var hash = arrVals[0].replace("hash=", "");
+
+//alert(hash);
+      var bitly = new BitlyHelper("preview", "preview");
+      bitly.getJSONByURL(bitly, 'http://bit.ly/'+hash);
+    </script>
+
+    <div id="preview"/>
+  </body>
+</html>

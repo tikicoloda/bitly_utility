@@ -1,0 +1,142 @@
+body {
+  min-width: 980px;
+  background-color: white;
+  text-align:center;
+  color: black;
+}
+
+textarea {
+  width: 400px;
+  height: 220px;
+  border: 1px solid #dddddd;
+}
+
+#outer-container {
+  margin:50px 0px;
+  padding:0px;
+}
+
+#container {
+  background-image:url(../img/global/gradient/apple.png);
+  width:980px;
+  height:360px;
+  padding:35px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footer {
+  /*background-image:url(../img/global/gradient/footer.png);*/
+  width:980px;
+  height:60px;
+  padding:35px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#left-container {
+  /*background-image:url(../img/global/gradient/transparent.png);*/
+  float: left;
+  width: 250px;
+  padding:35px;
+  overflow: hidden;
+  text-align: left;
+}
+
+#right-container {
+  /*background-image:url(../img/global/gradient/transparent.png);*/
+  width:640px;
+  color:#fff;
+  padding:35px;
+  float: right;
+}
+
+.recent {
+  padding:20px;
+}
+
+.recent li {
+  text-align: left;
+  cursor: hand;
+}
+
+.border {
+  width: 450px;
+  height: 250px;
+  border: 1px solid #dddddd;
+  BACKGROUND: url(/graphics/search_gradient.png) #ededed repeat-x 0px 0px; 
+}
+
+.overlay {
+  position: absolute;
+  top: 10px;
+  left: 18%;
+  padding:50px 70px;
+  overflow: visible;
+  text-align: center;
+  z-index:1;
+}
+
+.overlay p {
+  border: 1px solid #dddddd;
+  width: 100px:
+  z-index:99;
+}
+
+
+.copyButtonDiv {
+  width: 100%;
+  height: 30px;
+  overflow: hidden;
+  cursor: hand;
+}
+.copyButtonDiv input {
+  width:100%;
+  height:25px;
+  cursor: hand;
+}
+.copyButtonDiv img {
+  position:relative;
+  left:110%;
+  top:-25px;
+  width:120px;
+  height:25px;
+}
+
+
+
+a.ovalbutton{
+  background: transparent url('../img/global/gradient/oval-gray-left.gif') no-repeat top left;
+  display: block;
+  float: left;
+  font: normal 13px Tahoma; 
+  line-height: 16px; 
+  height: 24px; 
+  padding-left: 11px; 
+  text-decoration: none;
+}
+
+a:link.ovalbutton, a:visited.ovalbutton, a:active.ovalbutton{
+  color: #494949;
+}
+
+a.ovalbutton span{
+  background: transparent url('../img/global/gradient/oval-gray-right.gif') no-repeat top right;
+  display: block;
+  padding: 4px 11px 4px 0; 
+}
+
+a.ovalbutton:hover{ 
+  background-position: bottom left;
+}
+
+a.ovalbutton:hover span{ 
+  background-position: bottom right;
+  color: black;
+}
+
+.buttonwrapper{ 
+  margin-left: 50px;
+  overflow: hidden; 
+  width: 100%;
+}

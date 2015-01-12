@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <title>Bitly Post Utility</title>
+
+    <script type="text/javascript" src="scripts/BitlyCore.js"></script>
+  </head>
+  <body>
+    <div id="outer-container">
+      <div id="header">
+      </div>
+
+      <div id="container">
+        <div id="right-container">
+          <center>
+            <div class="buttonwrapper">
+              <a class="ovalbutton" href="blank" onclick="return(goHTML());"><span>Snip some html</span></a>
+              <a class="ovalbutton" href="blank" onclick="return(goJavascript());"><span>Snip some javascript</span></a>
+              <a class="ovalbutton" href="blank" onclick="return(goText());"><span>Snap a page</span></a>
+              <a class="ovalbutton" href="blank" onclick="return(goFile());"><span>Snip a file</span></a>
+            </div>
+            <br/>
+            <div class="border">
+              <input id="nickname" type="text"/>
+              <textarea id="link_Content"></textarea>
+              <input type="button" onclick="makeLinkBtnClick();" value="make link"/>
+            </div>
+          </center>
+        </div>
+
+        <div id="overlay" class="overlay">
+          <!--<div id="innerOverlay" class="apple_overlay black"></div>-->
+          <div id="innerOverlay" class="apple_overlay black"></div>
+        </div>
+
+        <div id="left-container">
+          <div id="recent" class="recent">
+            <div id="accordion"></div>
+          </div>
+        </div>
+
+      </div>
+      <div id="footer"></div>
+    </div>
+  </body>
+</html>
